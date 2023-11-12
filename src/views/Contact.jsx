@@ -43,7 +43,7 @@ const Contact = () => {
                   Name
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   id="name"
                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your name"
@@ -89,39 +89,32 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:aakash.sh858791@gmail.com">
+                  <a href="mailto:ryan.hernandez9207@proton.me">
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:aakash.sh858791@gmail.com">Submit</a>
+                  <a href="mailto:ryan.hernandez9207@proton.me">Submit</a>
                 </button>
               </div>
             </form>
           </div>
           <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
-            {/* <h1 className="text-3xl font-bold">Phone</h1>
-            <a
-              href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
-            >
-              +91 8285631499
-            </a> */}
             <h1 className="text-3xl font-bold">Email</h1>
             <a
               href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+              className="mb-12 mt-4 font-semibold text-blue-700 block"
             >
-              aakash.sh858791@gmail.com
+              ryan.hernandez9207@proton.me
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="hello"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
-              Jhilmil Colony, Delhi
+                Bakersfield, CA
               <br />
-              India
+              United States
             </a>
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
@@ -129,10 +122,11 @@ const Contact = () => {
                 <a
                   key={index}
                   href={el.link}
+                  target="_blank"
+                  rel="noreferrer"
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
                 >
                   <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
               ))}
             </ul>
@@ -146,9 +140,9 @@ const Contact = () => {
             : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center md:mt-20"
         }
       >
-        Made with
+        Made by
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Aakash Sharma
+        Ryan Hernandez
       </div>
     </div>
   );

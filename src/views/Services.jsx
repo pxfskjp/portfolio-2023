@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div
       className={
-        theme.state.darkMode ? "pb-20 bg-fixed bg-gray-100" : "pb-20 bg-black"
+        theme.state.darkMode ? "pb-60 bg-fixed bg-gray-100" : "pb-20 bg-black"
       }
       // style={{backgroundImage: `url('https://i.pinimg.com/originals/b0/b1/f5/b0b1f5d33de00e3c21ad29bbba25e31b.gif')`}}>
     >
@@ -29,7 +29,7 @@ const Services = () => {
           <h4 className="mt-16 text-3xl font-semibold text-blue-500">
             What I Provide
           </h4>
-          <div className="mt-8 flex md:flex-row justify-between flex-col md:items-stretch items-center ">
+          <div className="mt-20 flex md:flex-row justify-between flex-col md:items-stretch items-center ">
             {serviceData.map((el, index) => (
               <motion.div
                 key={index}

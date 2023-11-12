@@ -70,8 +70,8 @@ export const techStack = [
 
 
 export const contactLinks = [
-  { name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/ryan.hernandez9207/'},
-  { name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/ryan.hernandez9207'},
+  { name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/ryan9207/'},
+  { name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/ryan9207'},
   { name: 'Discord', url: 'https://img.icons8.com/doodle/40/000000/discord--v1.png', link :'https://discord.com/users/ryan.hernandez9207'},
 ]
 
