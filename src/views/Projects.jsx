@@ -24,6 +24,8 @@ const Projects = () => {
           <Card />
           <Card />
           <Card />
+          <Card />
+          <Card />
         </div>
         <a
           href="hello"
