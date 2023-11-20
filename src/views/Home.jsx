@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import heroBg from "../assets/webdev.svg";
-import Typical from "react-typical";
+import { TypeAnimation } from "react-type-animation";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
@@ -31,8 +31,8 @@ const Home = () => {
                 Hi, I am Ryan
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
-                <Typical
-                  steps={[
+                <TypeAnimation
+                  sequence={[
                     "Full Stack Developer",
                     1000,
                     "Blockchain Developer",
@@ -40,7 +40,9 @@ const Home = () => {
                     "Mobile Developer",
                     1000,
                   ]}
-                  loop={Infinity}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
                 />
               </span>
             </h1>
