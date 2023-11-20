@@ -68,14 +68,39 @@ export const techStack = [
   }
 ]
 
-
 export const contactLinks = [
   { name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/ryan9207/'},
   { name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/ryan9207'},
   { name: 'Discord', url: 'https://img.icons8.com/doodle/40/000000/discord--v1.png', link :'https://discord.com/users/ryan.hernandez9207'},
 ]
 
-
+export const projectsData = [
+  {
+    title: "Chatgpt UI implementation",
+    imgUrl: ['/assets/projects/chatgpt-next-react/1.png', '/assets/projects/chatgpt-next-react/2.png', '/assets/projects/chatgpt-next-react/3.png'],
+    description: "Build UI ChatGPT UI. Used stack: React, Next, OpenAI API",
+  },
+  {
+    title: "Multi Vendor",
+    imgUrl: ['/assets/projects/multi-vendor-laravel-vue/1.png', '/assets/projects/multi-vendor-laravel-vue/2.png', '/assets/projects/multi-vendor-laravel-vue/3.png'],
+    description: "Online Multi vendor site to sell proeucts. Used stack: Php, Laravel, Vue",
+  },
+  {
+    title: "Blockchain Minting",
+    imgUrl: ['/assets/projects/minting_site-angular/1.png', '/assets/projects/minting_site-angular/2.png', '/assets/projects/minting_site-angular/3.png'],
+    description: "Blockchain, Etherem, NFT token",
+  },
+  {
+    title: "Instagram Automation platform",
+    imgUrl: ['/assets/projects/instagram_scrapper-react-django/1.png', '/assets/projects/instagram_scrapper-react-django/2.png', '/assets/projects/instagram_scrapper-react-django/3.png'],
+    description: "Instagram automation platform. Auto Lead generator, Scraping user data such as followers, following, etc. Used stack: React frontend, Django Backend",
+  },
+  {
+    title: "Personal Blog site",
+    imgUrl: ['/assets/projects/next_blog-ruby/1.png', '/assets/projects/next_blog-ruby/2.png', '/assets/projects/next_blog-ruby/3.png'],
+    description: "Personal blog site. Used stack: Next js, Node js",
+  },
+]
 
 export const serviceData = [
   {

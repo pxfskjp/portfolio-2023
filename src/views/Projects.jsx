@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Card from "../components/Card";
 import { ThemeContext } from "../themeProvider";
+import { projectsData } from "../constants";
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -19,15 +20,13 @@ const Projects = () => {
           What I Built
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {
+            projectsData.map((project, index) => {
+              return <Card project={project} />
+            })
+          }
         </div>
-        <a
+        {/* <a
           href="hello"
           className=" w-32 flex items-center py-4 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-4"
         >
@@ -44,7 +43,7 @@ const Projects = () => {
               clipRule="evenodd"
             ></path>
           </svg>
-        </a>
+        </a> */}
       </div>
     </div>
   );
